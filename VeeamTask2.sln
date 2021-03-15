@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamTask2", "VeeamTask2\VeeamTask2.csproj", "{2A4D1A56-F19B-4E79-8899-50325FF6F553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamTask1", "VeeamTask1\VeeamTask1.csproj", "{4F08897C-28A0-4173-BAEF-EFE49DCA3543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4D1A56-F19B-4E79-8899-50325FF6F553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4D1A56-F19B-4E79-8899-50325FF6F553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4D1A56-F19B-4E79-8899-50325FF6F553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4D1A56-F19B-4E79-8899-50325FF6F553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F08897C-28A0-4173-BAEF-EFE49DCA3543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F08897C-28A0-4173-BAEF-EFE49DCA3543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F08897C-28A0-4173-BAEF-EFE49DCA3543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F08897C-28A0-4173-BAEF-EFE49DCA3543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17868B65-05CB-4CF5-BB78-85605D415D09}
+	EndGlobalSection
+EndGlobal
