@@ -9,7 +9,7 @@ namespace VeeamTask1
     {
         static void Main(string[] args)
         {            
-            CheckTime checkTime = new CheckTime();
+            CheckTime checkTime = new CheckTime(args[0], args[1], args[2]);
         }
         
     }

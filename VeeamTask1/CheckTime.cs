@@ -28,8 +28,7 @@ namespace VeeamTask1
 
             if (convertResult1 && convertResult2)
             {               
-                Console.WriteLine("Наблюдение началось " + DateTime.Now);
-                Console.WriteLine("Процесс завершится через " + aliveTime + " минут");
+                Console.WriteLine("Наблюдение началось " + DateTime.Now);               
                 this.Watch();
             }
             else
@@ -41,6 +40,7 @@ namespace VeeamTask1
         //Наблюдение
         private void Watch()
         {
+
             try
             {
                 processes = Process.GetProcessesByName(this.processName);
