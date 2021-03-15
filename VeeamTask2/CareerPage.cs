@@ -37,11 +37,12 @@ namespace VeeamTask2
             int cnt = Convert.ToInt32(count);
             return cnt;
         }
+        public const string departure = "Разработка продуктов"; //можно поменять отдел, например (Маркетинг/HR/Продажи) и тд
 
         public const string AllDepartures_Button = "//button[text() = 'Все отделы']";
         public const string AllLanguages_Button = "//button[text() = 'Все языки']";
         public const string CountElemets_Count = "//a[contains(@class,'card')]";
         public const string Language_Button_Label = "//label[text()='Английский']";
-        public const string Departure_Button_Label = "//*[@class='dropdown-item' and text()='Разработка продуктов']";
+        public const string Departure_Button_Label = "//*[@class='dropdown-item' and text()='"+ departure +"']"; 
     }
 }
